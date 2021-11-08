@@ -1,0 +1,497 @@
+[21-Oct-2020 18:59:51 Asia/Kolkata] PHP Notice:  Undefined variable: d_charges in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/checkout.php on line 232
+[21-Oct-2020 18:59:51 Asia/Kolkata] PHP Notice:  Undefined variable: d_charges in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/checkout.php on line 238
+[24-Oct-2020 07:33:40 Asia/Kolkata] PHP Notice:  Undefined index: log_user in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/checkout.php on line 144
+[24-Oct-2020 07:33:40 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and status=1 and primary_add=1' at line 1 in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/checkout.php:144
+Stack trace:
+#0 /home/u291070854/domains/cscodetech.com/public_html/hungryweb/checkout.php(144): mysqli->query('select * from a...')
+#1 {main}
+  thrown in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/checkout.php on line 144
+[27-Oct-2020 10:43:12 Asia/Kolkata] PHP Notice:  Undefined variable: d_charges in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/checkout.php on line 232
+[27-Oct-2020 10:43:12 Asia/Kolkata] PHP Notice:  Undefined variable: d_charges in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/checkout.php on line 238
+[27-Oct-2020 10:44:12 Asia/Kolkata] PHP Notice:  Undefined variable: d_charges in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/checkout.php on line 232
+[27-Oct-2020 10:44:12 Asia/Kolkata] PHP Notice:  Undefined variable: d_charges in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/checkout.php on line 238
+[27-Oct-2020 23:52:05 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/orderlist.php on line 21
+[27-Oct-2020 23:52:05 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/orderlist.php on line 22
+[27-Oct-2020 23:52:05 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/orderlist.php on line 23
+[27-Oct-2020 23:52:05 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/orderlist.php on line 23
+[27-Oct-2020 23:52:05 Asia/Kolkata] PHP Notice:  Undefined index: log_user in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/orderlist.php on line 55
+[27-Oct-2020 23:52:05 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'order by id desc' at line 1 in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/orderlist.php:55
+Stack trace:
+#0 /home/u291070854/domains/cscodetech.com/public_html/hungryweb/orderlist.php(55): mysqli->query('select * from o...')
+#1 {main}
+  thrown in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/orderlist.php on line 55
+[28-Oct-2020 01:00:45 Asia/Kolkata] PHP Notice:  Undefined variable: d_charges in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/checkout.php on line 232
+[28-Oct-2020 01:00:45 Asia/Kolkata] PHP Notice:  Undefined variable: d_charges in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/checkout.php on line 238
+[28-Oct-2020 12:26:26 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and sid= order by id desc limit 7' at line 1 in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/single.php:127
+Stack trace:
+#0 /home/u291070854/domains/cscodetech.com/public_html/hungryweb/single.php(127): mysqli->query('select * from p...')
+#1 {main}
+  thrown in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/single.php on line 127
+[28-Oct-2020 12:26:29 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') AND 6823=3639 AND (1565=1565 and status=1' at line 1 in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/header.php:8
+Stack trace:
+#0 /home/u291070854/domains/cscodetech.com/public_html/hungryweb/header.php(8): mysqli->query('select * from p...')
+#1 /home/u291070854/domains/cscodetech.com/public_html/hungryweb/single.php(2): require('/home/u29107085...')
+#2 {main}
+  thrown in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/header.php on line 8
+[28-Oct-2020 12:26:29 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') AND 1718=1718 AND (7790=7790 and status=1' at line 1 in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/header.php:8
+Stack trace:
+#0 /home/u291070854/domains/cscodetech.com/public_html/hungryweb/header.php(8): mysqli->query('select * from p...')
+#1 /home/u291070854/domains/cscodetech.com/public_html/hungryweb/single.php(2): require('/home/u29107085...')
+#2 {main}
+  thrown in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/header.php on line 8
+[28-Oct-2020 12:26:30 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and sid= order by id desc limit 7' at line 1 in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/single.php:127
+Stack trace:
+#0 /home/u291070854/domains/cscodetech.com/public_html/hungryweb/single.php(127): mysqli->query('select * from p...')
+#1 {main}
+  thrown in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/single.php on line 127
+[28-Oct-2020 12:26:32 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and sid= order by id desc limit 7' at line 1 in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/single.php:127
+Stack trace:
+#0 /home/u291070854/domains/cscodetech.com/public_html/hungryweb/single.php(127): mysqli->query('select * from p...')
+#1 {main}
+  thrown in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/single.php on line 127
+[28-Oct-2020 12:27:56 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'qbqqq1qpqkq1' for key 'group_key' in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/header.php:8
+Stack trace:
+#0 /home/u291070854/domains/cscodetech.com/public_html/hungryweb/header.php(8): mysqli->query('select * from p...')
+#1 /home/u291070854/domains/cscodetech.com/public_html/hungryweb/single.php(2): require('/home/u29107085...')
+#2 {main}
+  thrown in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/header.php on line 8
+[28-Oct-2020 12:27:57 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '::text||(CHR(113)||CHR(112)||CHR(113)||CHR(107)||CHR(113)) AS NUMERIC) and st...' at line 1 in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/header.php:8
+Stack trace:
+#0 /home/u291070854/domains/cscodetech.com/public_html/hungryweb/header.php(8): mysqli->query('select * from p...')
+#1 /home/u291070854/domains/cscodetech.com/public_html/hungryweb/single.php(2): require('/home/u29107085...')
+#2 {main}
+  thrown in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/header.php on line 8
+[28-Oct-2020 12:27:57 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and sid= order by id desc limit 7' at line 1 in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/single.php:127
+Stack trace:
+#0 /home/u291070854/domains/cscodetech.com/public_html/hungryweb/single.php(127): mysqli->query('select * from p...')
+#1 {main}
+  thrown in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/single.php on line 127
+[28-Oct-2020 12:27:57 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: FUNCTION u291070854_hweb.XMLType does not exist in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/header.php:8
+Stack trace:
+#0 /home/u291070854/domains/cscodetech.com/public_html/hungryweb/header.php(8): mysqli->query('select * from p...')
+#1 /home/u291070854/domains/cscodetech.com/public_html/hungryweb/single.php(2): require('/home/u29107085...')
+#2 {main}
+  thrown in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/header.php on line 8
+[28-Oct-2020 12:27:57 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'qbqqq1qpqkq1' for key 'group_key' in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/header.php:8
+Stack trace:
+#0 /home/u291070854/domains/cscodetech.com/public_html/hungryweb/header.php(8): mysqli->query('select * from p...')
+#1 /home/u291070854/domains/cscodetech.com/public_html/hungryweb/single.php(2): require('/home/u29107085...')
+#2 {main}
+  thrown in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/header.php on line 8
+[28-Oct-2020 12:27:58 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT PG_SLEEP(5)-- and status=1' at line 1 in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/header.php:8
+Stack trace:
+#0 /home/u291070854/domains/cscodetech.com/public_html/hungryweb/header.php(8): mysqli->query('select * from p...')
+#1 /home/u291070854/domains/cscodetech.com/public_html/hungryweb/single.php(2): require('/home/u29107085...')
+#2 {main}
+  thrown in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/header.php on line 8
+[28-Oct-2020 12:27:58 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT DBMS_PIPE.RECEIVE_MESSAGE(CHR(104)||CHR(70)||CHR(117)||CHR(118),5) FRO...' at line 1 in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/header.php:8
+Stack trace:
+#0 /home/u291070854/domains/cscodetech.com/public_html/hungryweb/header.php(8): mysqli->query('select * from p...')
+#1 /home/u291070854/domains/cscodetech.com/public_html/hungryweb/single.php(2): require('/home/u29107085...')
+#2 {main}
+  thrown in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/header.php on line 8
+[28-Oct-2020 12:28:09 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(5)) and status=1' at line 1 in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/header.php:8
+Stack trace:
+#0 /home/u291070854/domains/cscodetech.com/public_html/hungryweb/header.php(8): mysqli->query('select * from p...')
+#1 /home/u291070854/domains/cscodetech.com/public_html/hungryweb/single.php(2): require('/home/u29107085...')
+#2 {main}
+  thrown in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/header.php on line 8
+[28-Oct-2020 12:28:09 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: execute command denied to user 'u291070854_hweb'@'localhost' for routine 'DBMS_PIPE.RECEIVE_MESSAGE' in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/header.php:8
+Stack trace:
+#0 /home/u291070854/domains/cscodetech.com/public_html/hungryweb/header.php(8): mysqli->query('select * from p...')
+#1 /home/u291070854/domains/cscodetech.com/public_html/hungryweb/single.php(2): require('/home/u29107085...')
+#2 {main}
+  thrown in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/header.php on line 8
+[28-Oct-2020 12:28:12 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column '8165' in 'order clause' in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/header.php:8
+Stack trace:
+#0 /home/u291070854/domains/cscodetech.com/public_html/hungryweb/header.php(8): mysqli->query('select * from p...')
+#1 /home/u291070854/domains/cscodetech.com/public_html/hungryweb/single.php(2): require('/home/u29107085...')
+#2 {main}
+  thrown in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/header.php on line 8
+[28-Oct-2020 12:28:12 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column '20' in 'order clause' in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/header.php:8
+Stack trace:
+#0 /home/u291070854/domains/cscodetech.com/public_html/hungryweb/header.php(8): mysqli->query('select * from p...')
+#1 /home/u291070854/domains/cscodetech.com/public_html/hungryweb/single.php(2): require('/home/u29107085...')
+#2 {main}
+  thrown in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/header.php on line 8
+[28-Oct-2020 12:28:12 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column '18' in 'order clause' in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/header.php:8
+Stack trace:
+#0 /home/u291070854/domains/cscodetech.com/public_html/hungryweb/header.php(8): mysqli->query('select * from p...')
+#1 /home/u291070854/domains/cscodetech.com/public_html/hungryweb/single.php(2): require('/home/u29107085...')
+#2 {main}
+  thrown in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/header.php on line 8
+[28-Oct-2020 12:28:13 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column '17' in 'order clause' in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/header.php:8
+Stack trace:
+#0 /home/u291070854/domains/cscodetech.com/public_html/hungryweb/header.php(8): mysqli->query('select * from p...')
+#1 /home/u291070854/domains/cscodetech.com/public_html/hungryweb/single.php(2): require('/home/u29107085...')
+#2 {main}
+  thrown in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/header.php on line 8
+[28-Oct-2020 12:28:13 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column '16' in 'order clause' in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/header.php:8
+Stack trace:
+#0 /home/u291070854/domains/cscodetech.com/public_html/hungryweb/header.php(8): mysqli->query('select * from p...')
+#1 /home/u291070854/domains/cscodetech.com/public_html/hungryweb/single.php(2): require('/home/u29107085...')
+#2 {main}
+  thrown in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/header.php on line 8
+[28-Oct-2020 12:29:12 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and sid= order by id desc limit 7' at line 1 in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/single.php:127
+Stack trace:
+#0 /home/u291070854/domains/cscodetech.com/public_html/hungryweb/single.php(127): mysqli->query('select * from p...')
+#1 {main}
+  thrown in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/single.php on line 127
+[28-Oct-2020 12:29:12 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and sid= order by id desc limit 7' at line 1 in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/single.php:127
+Stack trace:
+#0 /home/u291070854/domains/cscodetech.com/public_html/hungryweb/single.php(127): mysqli->query('select * from p...')
+#1 {main}
+  thrown in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/single.php on line 127
+[28-Oct-2020 12:29:13 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '67 and status=1' at line 1 in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/header.php:8
+Stack trace:
+#0 /home/u291070854/domains/cscodetech.com/public_html/hungryweb/header.php(8): mysqli->query('select * from p...')
+#1 /home/u291070854/domains/cscodetech.com/public_html/hungryweb/single.php(2): require('/home/u29107085...')
+#2 {main}
+  thrown in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/header.php on line 8
+[28-Oct-2020 12:30:38 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'SYSDATE' in 'where clause' in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/header.php:8
+Stack trace:
+#0 /home/u291070854/domains/cscodetech.com/public_html/hungryweb/header.php(8): mysqli->query('select * from p...')
+#1 /home/u291070854/domains/cscodetech.com/public_html/hungryweb/single.php(2): require('/home/u29107085...')
+#2 {main}
+  thrown in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/header.php on line 8
+[28-Oct-2020 12:30:38 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: FUNCTION u291070854_hweb.LAST_INSERT_ROWID does not exist in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/header.php:8
+Stack trace:
+#0 /home/u291070854/domains/cscodetech.com/public_html/hungryweb/header.php(8): mysqli->query('select * from p...')
+#1 /home/u291070854/domains/cscodetech.com/public_html/hungryweb/single.php(2): require('/home/u29107085...')
+#2 {main}
+  thrown in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/header.php on line 8
+[28-Oct-2020 12:30:38 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: FUNCTION u291070854_hweb.VAL does not exist in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/header.php:8
+Stack trace:
+#0 /home/u291070854/domains/cscodetech.com/public_html/hungryweb/header.php(8): mysqli->query('select * from p...')
+#1 /home/u291070854/domains/cscodetech.com/public_html/hungryweb/single.php(2): require('/home/u29107085...')
+#2 {main}
+  thrown in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/header.php on line 8
+[28-Oct-2020 12:30:39 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown system variable 'transtate' in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/header.php:8
+Stack trace:
+#0 /home/u291070854/domains/cscodetech.com/public_html/hungryweb/header.php(8): mysqli->query('select * from p...')
+#1 /home/u291070854/domains/cscodetech.com/public_html/hungryweb/single.php(2): require('/home/u29107085...')
+#2 {main}
+  thrown in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/header.php on line 8
+[28-Oct-2020 12:30:39 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: SELECT command denied to user 'u291070854_hweb'@'localhost' for table 'SYSDUMMY1' in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/header.php:8
+Stack trace:
+#0 /home/u291070854/domains/cscodetech.com/public_html/hungryweb/header.php(8): mysqli->query('select * from p...')
+#1 /home/u291070854/domains/cscodetech.com/public_html/hungryweb/single.php(2): require('/home/u29107085...')
+#2 {main}
+  thrown in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/header.php on line 8
+[28-Oct-2020 12:30:39 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: FUNCTION u291070854_hweb.CASEWHEN does not exist in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/header.php:8
+Stack trace:
+#0 /home/u291070854/domains/cscodetech.com/public_html/hungryweb/header.php(8): mysqli->query('select * from p...')
+#1 /home/u291070854/domains/cscodetech.com/public_html/hungryweb/single.php(2): require('/home/u29107085...')
+#2 {main}
+  thrown in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/header.php on line 8
+[28-Oct-2020 12:30:40 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 and status=1' at line 1 in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/header.php:8
+Stack trace:
+#0 /home/u291070854/domains/cscodetech.com/public_html/hungryweb/header.php(8): mysqli->query('select * from p...')
+#1 /home/u291070854/domains/cscodetech.com/public_html/hungryweb/single.php(2): require('/home/u29107085...')
+#2 {main}
+  thrown in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/header.php on line 8
+[28-Oct-2020 12:30:40 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':SYSDUAL) and status=1' at line 1 in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/header.php:8
+Stack trace:
+#0 /home/u291070854/domains/cscodetech.com/public_html/hungryweb/header.php(8): mysqli->query('select * from p...')
+#1 /home/u291070854/domains/cscodetech.com/public_html/hungryweb/single.php(2): require('/home/u29107085...')
+#2 {main}
+  thrown in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/header.php on line 8
+[28-Oct-2020 12:30:40 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '{LIMIT 1 OFFSET 0}) and status=1' at line 1 in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/header.php:8
+Stack trace:
+#0 /home/u291070854/domains/cscodetech.com/public_html/hungryweb/header.php(8): mysqli->query('select * from p...')
+#1 /home/u291070854/domains/cscodetech.com/public_html/hungryweb/single.php(2): require('/home/u29107085...')
+#2 {main}
+  thrown in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/header.php on line 8
+[28-Oct-2020 12:30:41 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '} SUBSETEQ (CAST ({} AS SET)) and status=1' at line 1 in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/header.php:8
+Stack trace:
+#0 /home/u291070854/domains/cscodetech.com/public_html/hungryweb/header.php(8): mysqli->query('select * from p...')
+#1 /home/u291070854/domains/cscodetech.com/public_html/hungryweb/single.php(2): require('/home/u29107085...')
+#2 {main}
+  thrown in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/header.php on line 8
+[31-Oct-2020 16:59:59 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/orderlist.php on line 21
+[31-Oct-2020 16:59:59 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/orderlist.php on line 22
+[31-Oct-2020 16:59:59 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/orderlist.php on line 23
+[31-Oct-2020 16:59:59 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/orderlist.php on line 23
+[31-Oct-2020 16:59:59 Asia/Kolkata] PHP Notice:  Undefined index: log_user in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/orderlist.php on line 55
+[31-Oct-2020 16:59:59 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'order by id desc' at line 1 in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/orderlist.php:55
+Stack trace:
+#0 /home/u291070854/domains/cscodetech.com/public_html/hungryweb/orderlist.php(55): mysqli->query('select * from o...')
+#1 {main}
+  thrown in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/orderlist.php on line 55
+[31-Oct-2020 17:10:32 Asia/Kolkata] PHP Notice:  Undefined index: log_user in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/checkout.php on line 144
+[31-Oct-2020 17:10:32 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and status=1 and primary_add=1' at line 1 in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/checkout.php:144
+Stack trace:
+#0 /home/u291070854/domains/cscodetech.com/public_html/hungryweb/checkout.php(144): mysqli->query('select * from a...')
+#1 {main}
+  thrown in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/checkout.php on line 144
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 20
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 21
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 22
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 22
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 46
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 52
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 66
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 74
+[31-Oct-2020 19:31:17 Asia/Kolkata] PHP Notice:  Undefined variable: fet in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/my-profile.php on line 84
+[31-Oct-2020 22:53:22 Asia/Kolkata] PHP Notice:  Undefined index: log_user in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/checkout.php on line 144
+[31-Oct-2020 22:53:22 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and status=1 and primary_add=1' at line 1 in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/checkout.php:144
+Stack trace:
+#0 /home/u291070854/domains/cscodetech.com/public_html/hungryweb/checkout.php(144): mysqli->query('select * from a...')
+#1 {main}
+  thrown in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/checkout.php on line 144
+[01-Nov-2020 00:15:35 Asia/Kolkata] PHP Notice:  Undefined index: log_user in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/checkout.php on line 144
+[01-Nov-2020 00:15:35 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and status=1 and primary_add=1' at line 1 in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/checkout.php:144
+Stack trace:
+#0 /home/u291070854/domains/cscodetech.com/public_html/hungryweb/checkout.php(144): mysqli->query('select * from a...')
+#1 {main}
+  thrown in /home/u291070854/domains/cscodetech.com/public_html/hungryweb/checkout.php on line 144
+[23-Jun-2021 16:46:15 America/New_York] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'theplyxu_hung.cart_sess' doesn't exist in /home/theplyxu/public_html/header.php:246
+Stack trace:
+#0 /home/theplyxu/public_html/header.php(246): mysqli->query('select * from c...')
+#1 /home/theplyxu/public_html/index.php(2): require('/home/theplyxu/...')
+#2 {main}
+  thrown in /home/theplyxu/public_html/header.php on line 246
+[24-Jun-2021 19:13:56 America/New_York] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'theplyxu_hung.cart_sess' doesn't exist in /home/theplyxu/public_html/header.php:246
+Stack trace:
+#0 /home/theplyxu/public_html/header.php(246): mysqli->query('select * from c...')
+#1 /home/theplyxu/public_html/index.php(2): require('/home/theplyxu/...')
+#2 {main}
+  thrown in /home/theplyxu/public_html/header.php on line 246
