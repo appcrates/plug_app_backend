@@ -2,6 +2,10 @@
 // require 'db.php';
 require dirname( dirname(__FILE__) ).'/include/dbconfig.php';
 $data = json_decode(file_get_contents('php://input'), true);
+// $returnArr = array("ResponseCode"=>"200","Result"=>"true","ResponseMsg"=>"Successfully","data" => $data);
+// echo json_encode($returnArr);
+// die;
+
 ini_set('display_errors', 1); ini_set('display_startup_errors', 1); error_reporting(E_ALL);
 $adata = $con->query("select cred_value from payment_list where title='Stripe' ")->fetch_assoc();
 $cred_value = $adata['cred_value'];
@@ -72,7 +76,7 @@ else
                                                 'amount' => $amount,
                                                 'currency' => 'usd',
                                                 // 'source' => $stripe_card_id,
-                                                'customer' => $stripe_card_id,
+                                                'customer' => $stripe_customer_id,
                                                 'description' => $description,
                                             ]);
         }else{
@@ -82,6 +86,7 @@ else
                                                 'description' => $description
                                             ]);
             // print_r($customers);
+            // echo "bilal";
             $charges = $stripe->charges->create([
                                                 'amount' => $amount,
                                                 'currency' => 'usd',
@@ -89,10 +94,11 @@ else
                                                 'source' => $customers->default_source,
                                                 'description' => $description,
                                             ]);
-                                            
+            // print_r($charges['source']);
+            // die;
             $con->query("INSERT INTO `user_stripe_card` (`user_id`, `stripe_card_id`, `last_4_digit`, `stripe_customer_id`, `stripe_card_expiry_year`, `stripe_card_expiry_month`, `card_brand`, `stripe_card_funding`, `date_time`) 
-            VALUES ('".$user_id."','".$stripe_card_id."','".$last_4_digit."','".$customers->id."','".$stripe_card_expiry_year."','".$stripe_card_expiry_month."','".$card_brand."','".$stripe_card_funding."','".$timestamp."')");
-            echo $last_id = $con->insert_id;
+            VALUES ('".$user_id."','".$customers->default_source."','".$charges['source']->last4."','".$customers->id."','".$charges['source']->exp_year."','".$charges['source']->exp_month."','".$charges['source']->brand."','".$charges['source']->funding."','".$timestamp."')");
+            $last_id = $con->insert_id;
         }
         
         $returnArr = array("ResponseCode"=>"200","Result"=>"true","ResponseMsg"=>"Successfully","data"=>$charges);
