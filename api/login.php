@@ -1,8 +1,11 @@
 <?php 
+
 require 'db.php';
-$data = json_decode(file_get_contents('php://input'), true);
+// $data = json_decode(file_get_contents('php://input'), true);
+$data=$_POST;
 if($data['mobile'] == ''  or $data['password'] == '')
 {
+    
     $returnArr = array("ResponseCode"=>"401","Result"=>"false","ResponseMsg"=>"Something Went Wrong!");
 }
 else
