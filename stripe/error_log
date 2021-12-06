@@ -1,0 +1,12 @@
+[01-Dec-2021 03:33:29 America/New_York] PHP Fatal error:  Uncaught (Status 400) (Request req_dyxhuor3JhTQTG) No such customer: 'cus_Kbg6hh4VnNBYIk'; a similar object exists in test mode, but a live mode key was used to make this request.
+  thrown in /home/theplugg/public_html/admin/stripe/stripe-php/lib/Exception/ApiErrorException.php on line 38
+[01-Dec-2021 03:35:35 America/New_York] PHP Fatal error:  Uncaught (Status 400) (Request req_FFbAvToRJNLiHv) No such customer: 'cus_Kbg6hh4VnNBYIk'; a similar object exists in test mode, but a live mode key was used to make this request.
+  thrown in /home/theplugg/public_html/admin/stripe/stripe-php/lib/Exception/ApiErrorException.php on line 38
+[01-Dec-2021 03:43:42 America/New_York] PHP Fatal error:  Uncaught (Status 400) (Request req_kGg9g0NZzyZrRf) No such customer: 'cus_Kbg6hh4VnNBYIk'; a similar object exists in test mode, but a live mode key was used to make this request.
+  thrown in /home/theplugg/public_html/admin/stripe/stripe-php/lib/Exception/ApiErrorException.php on line 38
+[01-Dec-2021 07:35:19 America/New_York] PHP Fatal error:  Uncaught (Status 400) (Request req_MyHmHFJjNsbsj9) No such customer: 'cus_Kbg6hh4VnNBYIk'; a similar object exists in test mode, but a live mode key was used to make this request.
+  thrown in /home/theplugg/public_html/admin/stripe/stripe-php/lib/Exception/ApiErrorException.php on line 38
+[01-Dec-2021 12:11:39 America/New_York] PHP Fatal error:  Uncaught (Status 400) (Request req_i6tCKVvgTuB94b) No such customer: 'cus_KcT0GiDfWjXya9'; a similar object exists in test mode, but a live mode key was used to make this request.
+  thrown in /home/theplugg/public_html/admin/stripe/stripe-php/lib/Exception/ApiErrorException.php on line 38
+[01-Dec-2021 12:11:44 America/New_York] PHP Fatal error:  Uncaught (Status 400) (Request req_1EYytBmom5Xl1v) No such customer: 'cus_Kcd2HdN1H7g1J3'; a similar object exists in test mode, but a live mode key was used to make this request.
+  thrown in /home/theplugg/public_html/admin/stripe/stripe-php/lib/Exception/ApiErrorException.php on line 38
