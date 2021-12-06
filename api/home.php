@@ -4,12 +4,7 @@ require 'db.php';
 $data = json_decode(file_get_contents('php://input'), true);
  
 $uid = $data['uid'];
-if($uid == '')
-{
-	$returnArr = array("ResponseCode"=>"401","Result"=>"false","ResponseMsg"=>"Something Went wrong  try again !");
-}
-else 
-{ 
+
 	$v = array();
 	$cp = array(); 
 	$d = array();
@@ -103,18 +98,27 @@ else
 {
     
 }
+
+$curr = $con->query("select * from setting")->fetch_assoc();
+
+if($uid == '0')
+{
+	$r_noti = 0;
+	$wallet = array();
+}
+else 
+{ 
 	$udata = $con->query("select * from user where id=".$uid."")->fetch_assoc();
 	$date_time = $udata['rdate'];
 	
-$remain = $con->query("select * from noti where date >='".$date_time."'")->num_rows;
-
+    $remain = $con->query("select * from noti where date >='".$date_time."'")->num_rows;
 	
 	$read = $con->query("select * from uread where uid=".$uid."")->num_rows;
 	$r_noti = $remain - $read;
-	$curr = $con->query("select * from setting")->fetch_assoc();
 	$wallet = $con->query("select * from user where id=".$uid."")->fetch_assoc();
-	$kp = array('Banner'=>$v,'Catlist'=>$cp,'Productlist'=>$d,"Remain_notification"=>$r_noti,"Main_Data"=>$curr,"dynamic_section"=>$sec,"Wallet"=>$wallet['wallet']);
-	
-	$returnArr = array("ResponseCode"=>"200","Result"=>"true","ResponseMsg"=>"Data Get Successfully!","ResultData"=>$kp);
+
 }
-echo json_encode($returnArr);
+
+	$kp = array('Banner'=>$v,'Catlist'=>$cp,'Productlist'=>$d,"Remain_notification"=>$r_noti,"Main_Data"=>$curr,"dynamic_section"=>$sec,"Wallet"=>$wallet['wallet']);
+	$returnArr = array("ResponseCode"=>"200","Result"=>"true","ResponseMsg"=>"Data Get Successfully!","ResultData"=>$kp);
+	echo json_encode($returnArr);
