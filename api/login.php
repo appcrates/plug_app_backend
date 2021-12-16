@@ -1,7 +1,7 @@
 <?php 
 require 'db.php';
 $data = json_decode(file_get_contents('php://input'), true);
-if($data['mobile'] == ''  or $data['password'] == '')
+if($data['mobile'] == ''  or $data['password'] == '' or $data['fcm_token'] == '')
 {
     $returnArr = array("ResponseCode"=>"401","Result"=>"false","ResponseMsg"=>"Something Went Wrong!");
 }
@@ -10,6 +10,7 @@ else
     $mobile = strip_tags(mysqli_real_escape_string($con,$data['mobile']));
     $imei = strip_tags(mysqli_real_escape_string($con,$data['imei']));
     $password = strip_tags(mysqli_real_escape_string($con,$data['password']));
+    $fcm_token = $data['fcm_token'];
     
 $chek = $con->query("select * from user where (mobile='".$mobile."' or email='".$mobile."') and status = 1 and password='".$password."'");
 $status = $con->query("select * from user where status = 1");
@@ -17,6 +18,7 @@ if($status->num_rows !=0)
 {
 if($chek->num_rows != 0)
 {
+    $update_user_token = $con->query("UPDATE user SET fcm_token = '".$fcm_token."' where (mobile='".$mobile."' or email='".$mobile."') ");
     $c = $con->query("select * from user where (mobile='".$mobile."' or email='".$mobile."')  and status = 1 and password='".$password."'");
     $c = $c->fetch_assoc();
     $dc = $con->query("select * from area_db where name='".$c['area']."'");

@@ -190,6 +190,8 @@ $con->query("update template set message='".$msg."',title='".$title."',url='".$u
 						
 						<?php 
 							if(isset($_POST['sav_quiz'])){
+							    
+							    
 							$msg = mysqli_real_escape_string($con,$_POST['msg']);
 	    $url = $_FILES["url"]["name"];
 	   $title = mysqli_real_escape_string($con,$_POST['title']);
@@ -232,6 +234,18 @@ else
 	    
 	  
       $con->query("insert into template(`message`,`url`,`title`)values('".$msg."','".$url."','".$title."')");
+      
+    $sel = $con->query("select fcm_token from user");
+    while($row = $sel->fetch_assoc())
+    {
+        $token = $row['fcm_token'];
+        if(!empty($token)){
+            $tokens[] = $token;
+        }
+    }
+
+    send_push($title , $msg ,$tokens);
+    // die;
 
 							?>
 						
@@ -263,6 +277,59 @@ else
         </div>
 
         
+        
+        <?php
+        
+            
+    /*=================  SEND PUSH NOTIFICATION  =================*/
+    function send_push($title , $body ,$tokens ){
+        // echo $title;
+        // echo $body;
+        // echo $token;
+        // print_r($tokens);
+        // die;
+        $ch = curl_init();
+        curl_setopt( $ch,CURLOPT_URL, 'https://fcm.googleapis.com/fcm/send' );
+        curl_setopt( $ch,CURLOPT_POST, true );
+        curl_setopt( $ch,CURLOPT_RETURNTRANSFER, true );
+        curl_setopt( $ch,CURLOPT_SSL_VERIFYPEER, false );
+
+        //Custom data to be sent with the push
+        $data = array
+        (
+            'message'      => 'here is a message. message',
+            'title'        => $title,
+            'body'         => $body,
+            'smallIcon'    => 'small_icon',
+            'some data'    => 'Some Data',
+            'Another Data' => 'Another Data'
+        );
+
+        //This array contains, the token and the notification. The 'to' attribute stores the token.
+        $arrayToSend = array(
+                             'registration_ids' => $tokens,
+                             'notification' => $data,
+                             'priority'=>'high'
+                              );
+
+
+        //Generating JSON encoded string form the above array.
+        $json = json_encode($arrayToSend);
+        //Setup headers:
+        $headers = array();
+        $headers[] = 'Content-Type: application/json';
+        $headers[] = 'Authorization: key= AAAAQhJjqyE:APA91bG-3Q9hEMSg0BbeBO0Ak81r_s-8A9aom2DT5PG_AcygqZiDg7wwccnQlHG9GNcDsuky0NVZsIUbF4c7A-TLJmh6HqiCob3Ru6UXKGeGjJX0Z1nc6xiKYyoLLrMIwcBepvbxbMpk';
+        curl_setopt($ch, CURLOPT_POSTFIELDS, $json);
+        curl_setopt($ch, CURLOPT_HTTPHEADER,$headers);       
+        $response = curl_exec($ch);
+        curl_close($ch);
+        return $response;
+        // echo $response;
+        // die;
+    }
+    
+        
+        ?>
 
       </div>
     </div>
